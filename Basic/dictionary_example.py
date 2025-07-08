@@ -14,5 +14,9 @@ scores= {
         "shimi": 20 ,
     }
        }
-print(scores["jadi"]["zaban"])
-print(scores["sara"]["riazi"])
+x=scores.keys()
+print(x)
+print(scores.keys())
+#they are same codes.
+
+print(scores.values())
