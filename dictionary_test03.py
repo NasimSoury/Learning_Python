@@ -16,3 +16,4 @@ for name , score in scores.items():
         print(f"{name} : you are failed")
     else:
         print(f"{name} : you are passed")
+        
