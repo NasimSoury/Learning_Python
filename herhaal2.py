@@ -1,2 +1,4 @@
-for i in range(2,20,2):
-    print(i, ":salam")
+for i in range(1,21):
+    if  i%2 ==1 :
+        print(i)
+   
