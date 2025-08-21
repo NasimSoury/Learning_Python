@@ -4,4 +4,4 @@ def final_price(price, discont):
     return total
 
 
-print(final_price(100, 30))
+print(final_price(29, 30))
