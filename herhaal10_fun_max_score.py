@@ -1,6 +1,6 @@
 def find_max_score(scores):
     max_score=scores[0]
-# eshtebah neveshtam: for s in range(scores):
+# eshtebah neveshte boodam: for s in range(scores):
     for s in scores:
         if s>max_score:
             max_score=s    #eshtebah nev boodam: max_score == s ama 2 ta mosavi baraye moghayese hast!
