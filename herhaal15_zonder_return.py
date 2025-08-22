@@ -1,8 +1,8 @@
-def total_price_no_return(prices):
+def total_price_with_return(prices):
     total = sum(prices)
-    print("جمع خرید:", total)
+    return total
 
 # استفاده
-total_price_no_return([12000, 8000, 5000])   # چاپ میکنه
-x = total_price_no_return([12000, 8000, 5000])  # تلاش ناموفق برای ذخیره
-print("x =", x) #اما نمیتونه ایکس رو پیدا کنه و None برمیگردونه
+x = total_price_with_return([12000, 8000, 5000])
+print("x =", x)
+print("با مالیات (9%):", x * 1.09)
