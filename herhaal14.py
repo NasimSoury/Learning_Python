@@ -1,6 +1,7 @@
 def average(scores):
     total=sum(scores) / len(scores)
-    return total
+    
+    print(total)
 
     if total <10:
         print("failed")
@@ -9,4 +10,9 @@ def average(scores):
     else:
         print("passed")
 
-print(average([12,18,19,20]))
+
+
+
+
+average([12,18,19,20])
+
