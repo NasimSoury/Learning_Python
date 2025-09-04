@@ -1,11 +1,11 @@
 from random import randint
-javab= randint(1,6)
+answer= randint(1,6)
 
-i=input("chand bood? : ")
+i=input("wich number did you take : ")
 i=int(i)
 
-if i==javab :
-    print("wowww ...")
+if i==answer :
+    print("wowww! you was correct!")
 else:
-    print(f"na! maale man {javab} bood! ")
+    print(f"no! for me was {answer}! ")
 
