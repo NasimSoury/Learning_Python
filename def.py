@@ -4,5 +4,5 @@ def sum(a,b):
 
 c1=4
 c2= 6
-total= sum(c1, c2)
+total= res
 print(total)
