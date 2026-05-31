@@ -1,7 +1,7 @@
 
 
-secret=7
-while True:
+secret=6
+for i in range(3):
 
     guess=int(input("add a number:"))
     if guess==secret:
@@ -9,3 +9,5 @@ while True:
         break
     else:
         print("oh,sorry!try again!")
+else:
+    print("game over!")
