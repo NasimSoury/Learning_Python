@@ -1,7 +1,7 @@
 def is_even(n):
     if n%2==0:
-        print(f"{n} is even!")
+        return(f"{n} is even!")
     else:
-        print(f"{n} is odd!")
+        return(f"{n} is odd!")
 
 print(is_even(4))
